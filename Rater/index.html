@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <div>
+         <h1>Albums Rater</h1>
+        <label>Title:</label>
+        <input type="text" name="title" id="title" placeholder="Title name">
+        <label>Artist:</label>
+        <input type="text" name="title" id="artist" placeholder="Artist name"> 
+        <label>Rating:</label>
+        <input type="number" name="rating" id="Rating" placeholder="1-10" min='1' max="10"> 
+        <button id="btn">Rate Album</button>
+    </div>
+
+    
+    <table id="rr">
+        <tr>
+            <td>Title</td>
+            <td>Artist</td>
+            <td>Rating</td>
+            <td id="">Delete</td>
+        </tr>
+        <tr>
+            <td>Born to die</td>
+            <td>Lana Del Rey</td>
+            <td>5</td>
+            <td><input type="button" class="del" value="Remove"></td>
+        </tr>
+    </table>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="list.js"></script>
+</body>
+</html>
